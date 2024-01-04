@@ -133,7 +133,7 @@
     eslint-visitor-keys "^1.3.0"
     semver "^6.3.0"
 
-"@babel/generator@^7.11.0", "@babel/generator@^7.16.0", "@babel/generator@^7.20.7", "@babel/generator@^7.23.0", "@babel/generator@^7.23.6", "@babel/generator@^7.7.2":
+"@babel/generator@^7.11.0", "@babel/generator@^7.16.0", "@babel/generator@^7.20.7", "@babel/generator@^7.23.6", "@babel/generator@^7.7.2":
   version "7.23.6"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.23.6.tgz#9e1fca4811c77a10580d17d26b57b036133f3c2e"
   integrity sha512-qrSfCYxYQB5owCmGLbl8XRpX1ytXlpueOb0N0UmQwA073KZxejgQTzAmJezxvpwQD9uGtK2shHdi55QT+MbjIw==
@@ -633,7 +633,7 @@
     regenerator-runtime "^0.13.4"
     v8flags "^3.1.1"
 
-"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.11.1", "@babel/parser@^7.11.3", "@babel/parser@^7.12.13", "@babel/parser@^7.12.5", "@babel/parser@^7.14.7", "@babel/parser@^7.14.8", "@babel/parser@^7.16.0", "@babel/parser@^7.20.7", "@babel/parser@^7.22.15", "@babel/parser@^7.23.0", "@babel/parser@^7.23.6":
+"@babel/parser@^7.0.0", "@babel/parser@^7.1.0", "@babel/parser@^7.11.1", "@babel/parser@^7.11.3", "@babel/parser@^7.12.13", "@babel/parser@^7.12.5", "@babel/parser@^7.14.7", "@babel/parser@^7.14.8", "@babel/parser@^7.16.0", "@babel/parser@^7.20.7", "@babel/parser@^7.22.15", "@babel/parser@^7.23.6":
   version "7.23.6"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.23.6.tgz#ba1c9e512bda72a47e285ae42aff9d2a635a9e3b"
   integrity sha512-Z2uID7YJ7oNvAI20O9X0bblw7Qqs8Q2hFy0R9tAfnfLkp5MW0UH9eUvnDSnFwKZ0AvgS1ucqR4KzvVHgnke1VQ==
@@ -1694,7 +1694,7 @@
     "@babel/parser" "^7.22.15"
     "@babel/types" "^7.22.15"
 
-"@babel/traverse@^7.0.0", "@babel/traverse@^7.10.4", "@babel/traverse@^7.11.0", "@babel/traverse@^7.16.0", "@babel/traverse@^7.16.3", "@babel/traverse@^7.20.10", "@babel/traverse@^7.20.12", "@babel/traverse@^7.20.13", "@babel/traverse@^7.20.7", "@babel/traverse@^7.7.2":
+"@babel/traverse@^7.0.0", "@babel/traverse@^7.10.4", "@babel/traverse@^7.11.0", "@babel/traverse@^7.16.0", "@babel/traverse@^7.16.3", "@babel/traverse@^7.20.10", "@babel/traverse@^7.20.12", "@babel/traverse@^7.20.13", "@babel/traverse@^7.20.7", "@babel/traverse@^7.23.7", "@babel/traverse@^7.7.2":
   version "7.23.7"
   resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.7.tgz#9a7bf285c928cb99b5ead19c3b1ce5b310c9c305"
   integrity sha512-tY3mM8rH9jM0YHFGyfC0/xf+SB5eKUu7HPj7/k3fpi9dAlsMc5YbQvDi0Sh2QTPXqMhyaAtzAr807TIyfQrmyg==
@@ -1708,22 +1708,6 @@
     "@babel/parser" "^7.23.6"
     "@babel/types" "^7.23.6"
     debug "^4.3.1"
-    globals "^11.1.0"
-
-"@babel/traverse@^7.23.2":
-  version "7.23.2"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.23.2.tgz#329c7a06735e144a506bdb2cad0268b7f46f4ad8"
-  integrity sha512-azpe59SQ48qG6nu2CzcMLbxUudtN+dOM9kDbUqGq3HXUJRlo7i8fvPoxQUzYgLZ4cMVmuZgm8vvBpNeRhd6XSw==
-  dependencies:
-    "@babel/code-frame" "^7.22.13"
-    "@babel/generator" "^7.23.0"
-    "@babel/helper-environment-visitor" "^7.22.20"
-    "@babel/helper-function-name" "^7.23.0"
-    "@babel/helper-hoist-variables" "^7.22.5"
-    "@babel/helper-split-export-declaration" "^7.22.6"
-    "@babel/parser" "^7.23.0"
-    "@babel/types" "^7.23.0"
-    debug "^4.1.0"
     globals "^11.1.0"
 
 "@babel/types@^7.0.0", "@babel/types@^7.10.4", "@babel/types@^7.10.5", "@babel/types@^7.11.0", "@babel/types@^7.12.13", "@babel/types@^7.16.0", "@babel/types@^7.18.6", "@babel/types@^7.20.0", "@babel/types@^7.20.2", "@babel/types@^7.20.7", "@babel/types@^7.22.15", "@babel/types@^7.22.5", "@babel/types@^7.23.0", "@babel/types@^7.23.6", "@babel/types@^7.3.0", "@babel/types@^7.3.3", "@babel/types@^7.4.4":
@@ -6321,10 +6305,10 @@ electron-to-chromium@^1.4.284:
   resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.4.284.tgz#61046d1e4cab3a25238f6bf7413795270f125592"
   integrity sha512-M8WEXFuKXMYMVr45fo8mq0wUrrJHheiKZf6BArTKk9ZBYCKJEOU5H8cdWgDT+qCVZf7Na4lVUaZsA+h6uA9+PA==
 
-electron@^24.8.5:
-  version "24.8.5"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-24.8.5.tgz#795e13670f89de927bc4e40fd2a64ff7f9f7c3b6"
-  integrity sha512-CWSF0CrD1XhxyoXUcCcEoJB8orMTHuOrkj2s87XU11vjgVJHhzhCBh9TVqhMQt7U6TtcGYa5kDIiLRekxJRaRA==
+electron@^28.1.1:
+  version "28.1.1"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-28.1.1.tgz#37254967e32a4a69e18378f3b1aba1475522d08d"
+  integrity sha512-HJSbGHpRl46jWCp5G4OH57KSm2F5u15tB10ixD8iFiz9dhwojqlSQTRAcjSwvga+Vqs1jv7iqwQRrolXP4DgOA==
   dependencies:
     "@electron/get" "^2.0.0"
     "@types/node" "^18.11.18"
@@ -10073,15 +10057,10 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-json5@^2.1.0, json5@^2.1.2:
+json5@^2.1.0, json5@^2.1.2, json5@^2.2.2, json5@^2.2.3:
   version "2.2.3"
   resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.3.tgz#78cd6f1a19bdc12b73db5ad0c61efd66c1e29283"
   integrity sha512-XmOWe7eyHYH14cLdVPoyg+GOH3rYX++KpzrylJwSW98t3Nk+U8XOl8FWKOgwtzdb8lXGf6zYwDUzeHMWfxasyg==
-
-json5@^2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/json5/-/json5-2.2.2.tgz#64471c5bdcc564c18f7c1d4df2e2297f2457c5ab"
-  integrity sha512-46Tk9JiOL2z7ytNQWFLpj99RZkVgeHf87yGQKsIkaPz1qSH9UczKH1rO7K3wgRselo0tYMUNfecYpm/p1vC7tQ==
 
 jsonfile@^4.0.0:
   version "4.0.0"
@@ -13386,15 +13365,22 @@ semver@7.3.2:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.2.tgz#604962b052b81ed0786aae84389ffba70ffd3938"
   integrity sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==
 
-semver@^6.0.0, semver@^6.2.0, semver@^6.3.0, semver@^6.3.1:
+semver@^6.0.0, semver@^6.2.0, semver@^6.3.0:
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-6.3.1.tgz#556d2ef8689146e46dcea4bfdd095f3434dffcb4"
   integrity sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==
 
 semver@^7.2.1, semver@^7.3.2, semver@^7.3.5, semver@^7.3.8:
-  version "7.3.8"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.8.tgz#07a78feafb3f7b32347d725e33de7e2a2df67798"
-  integrity sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==
+  version "7.5.4"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
+  integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
+  dependencies:
+    lru-cache "^6.0.0"
+
+semver@^7.5.2:
+  version "7.5.2"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.2.tgz#5b851e66d1be07c1cdaf37dfc856f543325a2beb"
+  integrity sha512-SoftuTROv/cRjCze/scjGyiDtcUyxw1rgYQSZY7XTmtR5hX+dm76iDbTH8TkLPHCQmlbQVSSbNZCPM2hb0knnQ==
   dependencies:
     lru-cache "^6.0.0"
 
